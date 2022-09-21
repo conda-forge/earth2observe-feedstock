@@ -28,8 +28,6 @@ requirements:
     - pyramids >=0.2.2
     - ecmwf-api-client >=1.6.3
     - loguru >=0.6.0
-    - pytest >=7.1.13
-    - pytest-cov >=3.0.0
 
 test:
   imports:
