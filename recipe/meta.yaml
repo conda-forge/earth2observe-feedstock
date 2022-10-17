@@ -1,5 +1,5 @@
 {% set name = "earth2observe" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/MAfarrag/earth2observe/archive/{{ version }}.tar.gz
-  sha256: 64eb47888ce88dcc5ef38da93b0e3e18e7db5bf2efc18a5e20b3b3ceb146124b
+  sha256: d6e19f042fb5f3e08dc51be0a72d3d32106afea2c030d7bb620ee715c230ff54
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - poetry >=1.1.15
   run:
     - python >=3.9,<3.12
-    - pyramids >=0.2.5
+    - pyramids >=0.2.6
 #    - numpy >=1.23.3
 #    - netCDF4 >=1.5.5,<1.6.1
 #    - gdal >=3.4.3,<3.5.1
