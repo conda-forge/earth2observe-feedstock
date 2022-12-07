@@ -1,5 +1,5 @@
 {% set name = "earth2observe" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/MAfarrag/earth2observe/archive/{{ version }}.tar.gz
-  sha256: d6e19f042fb5f3e08dc51be0a72d3d32106afea2c030d7bb620ee715c230ff54
+  sha256: 0b0421ee3390503f207cde488d79523ac5b01eff45e519a302b9cfc7aa21872e
 
 build:
   number: 0
@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://github.com/MAfarrag/pyramids
-  license:  GPL-3.0-only
+  license: GPL-3.0-only
   license_family: GPL
   license_file: LICENSE.md
   summary: GIS utility package
