@@ -21,7 +21,7 @@ requirements:
     - poetry >=1.1.15
   run:
     - python >=3.9,<3.12
-    - numpy >=1.23.3    
+    - numpy >=1.23.2
     - pyramids >=0.2.6
     - ecmwf-api-client >=1.6.3
     - loguru >=0.6.0
