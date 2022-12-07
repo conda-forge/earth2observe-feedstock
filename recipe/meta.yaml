@@ -1,5 +1,5 @@
 {% set name = "earth2observe" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/MAfarrag/earth2observe/archive/{{ version }}.tar.gz
-  sha256: d6e19f042fb5f3e08dc51be0a72d3d32106afea2c030d7bb620ee715c230ff54
+  sha256: 51082d713b930cd0376a1bea493a7bffe12c8f52201402c3bc7e797e50761b2e
 
 build:
   number: 0
@@ -21,13 +21,15 @@ requirements:
     - poetry >=1.1.15
   run:
     - python >=3.9,<3.12
+    - numpy >=1.23.3    
     - pyramids >=0.2.6
-#    - numpy >=1.23.3
-#    - netCDF4 >=1.5.5,<1.6.1
-#    - gdal >=3.4.3,<3.5.1
-#    - pandas >=1.4.4,<1.5.0
     - ecmwf-api-client >=1.6.3
-#    - loguru >=0.6.0
+    - loguru >=0.6.0
+    - joblib = "^1.2.0"
+    - pandas >=1.4.4,<1.5.0
+#    - netCDF4 >=1.5.5,<1.6.1
+#    - gdal >=3.4.3,<3.5.1    
+
 
 test:
   imports:
