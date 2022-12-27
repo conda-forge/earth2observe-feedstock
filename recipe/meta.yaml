@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/MAfarrag/earth2observe/archive/{{ version }}.tar.gz
-  sha256: CD8B273C8985A6699A0C1D046F560CA24626B965E4AD8F095DAECF773313E224
+  sha256: cd8b273c8985a6699a0c1d046f560ca24626b965e4ad8f095daecf773313e224
 
 build:
   number: 0
